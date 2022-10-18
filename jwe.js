@@ -1,10 +1,15 @@
 const jose = require('jose')
 
 async function getJWK() {
-  // const secret = await jose.generateSecret('A128GCM')
-  const secretString = { kty: 'oct', k: 'cJRCTtsXeCmGPtFFk9WJyA' }
+  // generate secret
+  // const secretGenerated = await jose.generateSecret('A128GCM')
+  // const secret = await jose.exportJWK(secretGenerated)
+  // console.log("secret ", secretGenerated.export({format:'jwk'}))
+
+  // bring ur own JWK secret
+  const secret = { kty: 'oct', k: 'cJRCTtsXeCmGPtFFk9WJyA' }
   const jwk = await jose.importJWK(
-    secretString,
+    secret,
     'A128GCM',
   )
   return jwk
