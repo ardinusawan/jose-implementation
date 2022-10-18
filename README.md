@@ -1,5 +1,5 @@
 # JWS & JWT using JOSE
-Implementation of library[jose](https://github.com/panva/jose)
+Implementation of library [panva/jose](https://github.com/panva/jose)
 
 ## How
 1. npm i jose
