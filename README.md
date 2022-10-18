@@ -16,3 +16,4 @@ node jws.js
 
 ## Docs
 - [Algorithm required](https://github.com/panva/jose/issues/210)
+- [Direct JSON Web Encryption (JWE) with a shared symmetric key](https://connect2id.com/products/nimbus-jose-jwt/examples/jwe-with-shared-key)
