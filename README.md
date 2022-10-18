@@ -13,3 +13,6 @@ node jwe.js
 ```
 node jws.js
 ```
+
+## Docs
+- [Algorithm required](https://github.com/panva/jose/issues/210)
